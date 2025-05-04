@@ -1,0 +1,295 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>鈴木太郎 - システム開発のプロフェッショナル</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+</head>
+<body>
+  <header>
+    <div class="container">
+      <h1 class="logo">鈴木太郎</h1>
+      <nav>
+        <ul class="nav-links">
+          <li><a href="#about">プロフィール</a></li>
+          <li><a href="#skills">スキル</a></li>
+          <li><a href="#experience">経験</a></li>
+          <li><a href="#contact">お問い合わせ</a></li>
+        </ul>
+      </nav>
+      <div class="header-buttons">
+        <button id="theme-toggle" aria-label="テーマ切り替え">
+          <i class="fas fa-moon"></i>
+          <i class="fas fa-sun"></i>
+        </button>
+        <a href="#contact" class="btn">お問い合わせ</a>
+      </div>
+      <button class="mobile-menu-btn" aria-label="メニュー">
+        <span></span>
+        <span></span>
+        <span></span>
+      </button>
+    </div>
+  </header>
+
+  <section class="hero">
+    <div class="container">
+      <div class="hero-content">
+        <h1 class="fade-in">システム開発の<br>プロフェッショナル</h1>
+        <p class="fade-in delay-1">20年以上の経験を持つシステムエンジニア。設計から実装、運用まで一貫したサービス提供が可能です。</p>
+        <div class="hero-buttons fade-in delay-2">
+          <a href="#experience" class="btn btn-primary">実績を見る <i class="fas fa-chevron-right"></i></a>
+          <a href="#contact" class="btn btn-outline">お問い合わせ</a>
+        </div>
+      </div>
+      <div class="hero-image fade-in delay-3">
+        <div class="code-icon">
+          <i class="fas fa-code"></i>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="about" class="about">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">プロフィール</span>
+        <h2>20年以上の実績</h2>
+        <p>社内システムの開発・運用にトータルで20年以上携わり、プログラミングからプロジェクトマネジメントまで、幅広い業務を経験してきました。</p>
+      </div>
+      <div class="feature-cards">
+        <div class="feature-card" data-aos="fade-up">
+          <div class="feature-icon">
+            <i class="fas fa-layer-group"></i>
+          </div>
+          <h3>システム設計</h3>
+          <p>大規模システムの設計から実装までを担当し、安定性と拡張性を意識した構築により品質向上に貢献</p>
+        </div>
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="feature-icon">
+            <i class="fas fa-check-circle"></i>
+          </div>
+          <h3>テスト設計</h3>
+          <p>テスト計画の策定から実行までを一貫して担い、不具合の早期検出と品質確保に寄与</p>
+        </div>
+        <div class="feature-card" data-aos="fade-up" data-aos-delay="200">
+          <div class="feature-icon">
+            <i class="fas fa-users"></i>
+          </div>
+          <h3>チームリーダー</h3>
+          <p>開発チームのマネジメントを行い、メンバーの成長を支援しつつ、円滑なプロジェクト推進を実現</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">スキル</span>
+        <h2>専門知識とスキル</h2>
+        <p>長年の経験を通じて培った多様なスキルセット</p>
+      </div>
+      <div class="skill-cards">
+        <div class="skill-card" data-aos="fade-up">
+          <div class="skill-header">
+            <div class="skill-icon">
+              <i class="fas fa-code"></i>
+            </div>
+            <h3>プログラミング</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">Java</span>
+            <span class="skill-tag">JavaScript</span>
+            <span class="skill-tag">CSS</span>
+            <span class="skill-tag">BizRobo</span>
+            <span class="skill-tag">VB</span>
+          </div>
+          <p>複数のプログラミング言語を使用した実務経験があり、様々なシステム開発に対応可能です。</p>
+        </div>
+        <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="skill-header">
+            <div class="skill-icon">
+              <i class="fas fa-layer-group"></i>
+            </div>
+            <h3>システム開発</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">要件定義</span>
+            <span class="skill-tag">設計</span>
+            <span class="skill-tag">開発</span>
+            <span class="skill-tag">テスト</span>
+            <span class="skill-tag">運用</span>
+          </div>
+          <p>システム開発の全工程に精通しており、上流から下流まで一貫した対応が可能です。</p>
+        </div>
+        <div class="skill-card" data-aos="fade-up">
+          <div class="skill-header">
+            <div class="skill-icon">
+              <i class="fas fa-users"></i>
+            </div>
+            <h3>マネジメント</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">プロジェクト管理</span>
+            <span class="skill-tag">チームリーダー</span>
+            <span class="skill-tag">進捗管理</span>
+            <span class="skill-tag">リスク管理</span>
+          </div>
+          <p>複数のプロジェクトをリードした経験があり、チームマネジメントとリーダーシップを発揮します。</p>
+        </div>
+        <div class="skill-card" data-aos="fade-up" data-aos-delay="100">
+          <div class="skill-header">
+            <div class="skill-icon">
+              <i class="fas fa-wrench"></i>
+            </div>
+            <h3>トラブルシューティング</h3>
+          </div>
+          <div class="skill-tags">
+            <span class="skill-tag">障害対応</span>
+            <span class="skill-tag">問題解決</span>
+            <span class="skill-tag">改善提案</span>
+            <span class="skill-tag">品質向上</span>
+          </div>
+          <p>トラブル発生時の迅速な対応と根本原因の分析、再発防止策の立案に強みがあります。</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="experience" class="experience">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">経験</span>
+        <h2>実績と経験</h2>
+        <p>これまでの主な実績と経験をご紹介します</p>
+      </div>
+      <div class="tabs">
+        <div class="tab-buttons">
+          <button class="tab-btn active" data-tab="projects">プロジェクト</button>
+          <button class="tab-btn" data-tab="leadership">リーダーシップ</button>
+          <button class="tab-btn" data-tab="achievements">成果</button>
+        </div>
+        <div class="tab-content">
+          <div class="tab-pane active" id="projects">
+            <div class="experience-card" data-aos="fade-up">
+              <h3>大規模システムリニューアル</h3>
+              <p>老朽化した基幹システムの全面刷新プロジェクトを担当。要件定義から設計、開発、テスト、移行まで一貫して推進し、予定通りのリリースを実現。</p>
+            </div>
+            <div class="experience-card" data-aos="fade-up" data-aos-delay="100">
+              <h3>業務効率化システム構築</h3>
+              <p>手作業で行われていた業務プロセスを自動化するシステムを設計・開発。作業時間を80%削減し、ヒューマンエラーを大幅に低減。</p>
+            </div>
+            <div class="experience-card" data-aos="fade-up" data-aos-delay="200">
+              <h3>レガシーシステム移行</h3>
+              <p>古いプラットフォームで稼働していたシステムを最新技術へ移行。互換性を保ちながら、パフォーマンスと保守性を向上。</p>
+            </div>
+          </div>
+          <div class="tab-pane" id="leadership">
+            <div class="experience-card" data-aos="fade-up">
+              <h3>開発チームリーダー</h3>
+              <p>10名規模の開発チームをリード。メンバーの育成と技術指導を行いながら、複数のプロジェクトを並行して推進。</p>
+            </div>
+            <div class="experience-card" data-aos="fade-up" data-aos-delay="100">
+              <h3>プロジェクトマネージャー</h3>
+              <p>予算3000万円規模のプロジェクトのマネジメントを担当。スケジュール管理、リスク管理を徹底し、計画通りの納品を実現。</p>
+            </div>
+            <div class="experience-card" data-aos="fade-up" data-aos-delay="200">
+              <h3>部門間調整役</h3>
+              <p>複数部門が関わる大規模プロジェクトにおいて、各部門の要望を調整し、全体最適な解決策を提案・実行。</p>
+            </div>
+          </div>
+          <div class="tab-pane" id="achievements">
+            <div class="experience-card" data-aos="fade-up">
+              <h3>システム安定稼働の実現</h3>
+              <p>障害発生率を前年比70%削減。24時間365日の安定稼働を実現し、業務の信頼性向上に貢献。</p>
+            </div>
+            <div class="experience-card" data-aos="fade-up" data-aos-delay="100">
+              <h3>開発プロセス改善</h3>
+              <p>テスト自動化と継続的インテグレーションの導入により、開発期間を30%短縮し、品質向上を同時に達成。</p>
+            </div>
+            <div class="experience-card" data-aos="fade-up" data-aos-delay="200">
+              <h3>コスト削減</h3>
+              <p>システム運用コストを年間20%削減する改善策を立案・実行。効率化と最適化により、予算内での運用を実現。</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <div class="container">
+      <div class="section-header">
+        <span class="section-tag">お問い合わせ</span>
+        <h2>ご連絡をお待ちしています</h2>
+        <p>お仕事のご依頼やご質問など、お気軽にお問い合わせください</p>
+      </div>
+      <div class="contact-container">
+        <div class="contact-form" data-aos="fade-up">
+          <form id="contactForm">
+            <div class="form-group">
+              <label for="name">お名前</label>
+              <input type="text" id="name" name="name" placeholder="山田 太郎" required>
+            </div>
+            <div class="form-group">
+              <label for="email">メールアドレス</label>
+              <input type="email" id="email" name="email" placeholder="example@example.com" required>
+            </div>
+            <div class="form-group">
+              <label for="message">メッセージ</label>
+              <textarea id="message" name="message" placeholder="お問い合わせ内容をご記入ください" rows="5" required></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-full">送信する</button>
+          </form>
+        </div>
+        <div class="contact-info" data-aos="fade-up" data-aos-delay="100">
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="contact-text">
+              <h3>メール</h3>
+              <p>contact@example.com</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fab fa-github"></i>
+            </div>
+            <div class="contact-text">
+              <h3>GitHub</h3>
+              <p>github.com/username</p>
+            </div>
+          </div>
+          <div class="contact-item">
+            <div class="contact-icon">
+              <i class="fab fa-linkedin"></i>
+            </div>
+            <div class="contact-text">
+              <h3>LinkedIn</h3>
+              <p>linkedin.com/in/username</p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <footer>
+    <div class="container">
+      <div class="footer-content">
+        <p>&copy; <span id="current-year"></span> 鈴木 太郎. All rights reserved.</p>
+        <div class="footer-links">
+          <a href="#">プライバシーポリシー</a>
+          <a href="#">利用規約</a>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
